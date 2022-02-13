@@ -1,6 +1,6 @@
 ﻿  Kaynak.cpp
-C:\Users\90507\Documents\Cpp_Project_Cherno\Variables\Variables\Kaynak.cpp(30,16): warning C4101: 'e': yerel değişken başvurusu kaldırıldı
-C:\Users\90507\Documents\Cpp_Project_Cherno\Variables\Variables\Kaynak.cpp(23,8): warning C4101: 'b': yerel değişken başvurusu kaldırıldı
-C:\Users\90507\Documents\Cpp_Project_Cherno\Variables\Variables\Kaynak.cpp(30,10): warning C4101: '_d45': yerel değişken başvurusu kaldırıldı
-C:\Users\90507\Documents\Cpp_Project_Cherno\Variables\Variables\Kaynak.cpp(30,6): warning C4101: '_c': yerel değişken başvurusu kaldırıldı
+C:\Users\90507\Documents\Cpp_Project_Cherno\Variables\Variables\Kaynak.cpp(35,16): warning C4101: 'e': yerel değişken başvurusu kaldırıldı
+C:\Users\90507\Documents\Cpp_Project_Cherno\Variables\Variables\Kaynak.cpp(28,8): warning C4101: 'b': yerel değişken başvurusu kaldırıldı
+C:\Users\90507\Documents\Cpp_Project_Cherno\Variables\Variables\Kaynak.cpp(35,10): warning C4101: '_d45': yerel değişken başvurusu kaldırıldı
+C:\Users\90507\Documents\Cpp_Project_Cherno\Variables\Variables\Kaynak.cpp(35,6): warning C4101: '_c': yerel değişken başvurusu kaldırıldı
   Variables.vcxproj -> C:\Users\90507\Documents\Cpp_Project_Cherno\Variables\x64\Debug\Variables.exe
