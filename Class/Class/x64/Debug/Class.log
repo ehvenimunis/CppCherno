@@ -1,0 +1,3 @@
+﻿  Class.cpp
+C:\Users\90507\Documents\Cpp_Project_Cherno\Class\Class\Class.cpp(53,14): warning C4101: 'ptr': yerel değişken başvurusu kaldırıldı
+  Class.vcxproj -> C:\Users\90507\Documents\Cpp_Project_Cherno\Class\x64\Debug\Class.exe
