@@ -1,0 +1,7 @@
+﻿  decltype.cpp
+C:\Users\90507\Documents\Cpp_Project_Cherno\decltype\decltype.cpp(46,52): warning C4244: 'bağımsız değişken': 'float' - 'T' dönüşümü; veri kaybı olabilir
+          with
+          [
+              T=int
+          ]
+  decltype.vcxproj -> C:\Users\90507\Documents\Cpp_Project_Cherno\decltype\x64\Debug\decltype.exe
