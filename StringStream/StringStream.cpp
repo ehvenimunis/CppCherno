@@ -90,3 +90,12 @@ int main() {
 
     return 0;
 }
+
+/*
+
+    clear()- To clear the stream.
+    str()- To get and set string object whose content is present in the stream.
+    operator <<- Add a string to the stringstream object.
+    operator >>- Read something from the stringstream object.
+    
+*/
