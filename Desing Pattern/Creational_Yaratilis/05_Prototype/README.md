@@ -3,7 +3,7 @@
 
 ## PrototypeBuilder Pattern Kullanım Adımları
 
-* İlk önce soyut bir sınıf oluşturuyoruz. Bu sınıf bizim temel protatip sınıfımız.
+* İlk önce soyut bir sınıf oluşturuyoruz. Bu sınıf bizim temel prototip sınıfımız.
 
 ```cpp
 class Kayit
