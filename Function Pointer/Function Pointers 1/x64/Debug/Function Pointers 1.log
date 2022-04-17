@@ -1,0 +1,13 @@
+﻿  Function Pointers.cpp
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(22,16): error C2440: 'return': 'const void *' - 'void *' dönüşümü yapılamıyor
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(22,12): message : Dönüştürme niteleyicileri kaybediyor
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(49,57): error C2440: 'başlatılıyor': 'void *' - 'int *' dönüşümü yapılamıyor
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(49,15): message : 'void*' değerinden 'void' olmayan işaretçisine dönüştürme açık bir tür dönüştürme gerektiriyor
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(50,12): warning C4477: 'printf' : '%d' biçim dizesi 'int' türü bir bağımsız değişken gerektirir, ancak 2 değişen sayıda bağımsız değişkenin türü '__int64'
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(50,12): message : biçim dizesinde '%lld' kullanmayı düşünün
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(50,12): message : biçim dizesinde '%Id' kullanmayı düşünün
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(50,12): message : biçim dizesinde '%I64d' kullanmayı düşünün
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(51,65): error C2440: '=': 'void *' - 'Person *' dönüşümü yapılamıyor
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(51,14): message : 'void*' değerinden 'void' olmayan işaretçisine dönüştürme açık bir tür dönüştürme gerektiriyor
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(53,63): error C2440: '=': 'void *' - 'Person *' dönüşümü yapılamıyor
+C:\Users\90507\Documents\Cpp_Project_Cherno\Function Pointers 1\Function Pointers.cpp(53,14): message : 'void*' değerinden 'void' olmayan işaretçisine dönüştürme açık bir tür dönüştürme gerektiriyor
