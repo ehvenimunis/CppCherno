@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7dc32492-bb6f-4a44-98e9-77a62665a505": {
+      "ProjectGuid": "7dc32492-bb6f-4a44-98e9-77a62665a505",
+      "DisplayName": "SingletonMultihread",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

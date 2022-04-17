@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a5e72be6-af72-41f1-bc12-6c0041e158ca": {
+      "ProjectGuid": "a5e72be6-af72-41f1-bc12-6c0041e158ca",
+      "DisplayName": "Singleton",
+      "ColorIndex": 0
+    },
+    "f3b2adb2-1114-470a-b5e4-ab32cb5d84eb": {
+      "ProjectGuid": "f3b2adb2-1114-470a-b5e4-ab32cb5d84eb",
+      "DisplayName": "SingletonMultithread",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Diğer Dosyalar",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
