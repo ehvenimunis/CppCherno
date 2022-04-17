@@ -1,4 +1,12 @@
-﻿#include <iostream>
+﻿//============================================================================
+// İsim        : Factory
+// Yazan       : Muhammed Salih Aydoğan
+// Version     : 1.0
+// Copyright   : 
+// Açıklama    : Factory Pattern
+//============================================================================
+
+#include <iostream>
 
 using namespace std;
 

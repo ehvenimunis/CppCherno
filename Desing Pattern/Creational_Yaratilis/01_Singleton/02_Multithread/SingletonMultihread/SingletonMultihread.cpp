@@ -1,4 +1,12 @@
-﻿#include <iostream>
+﻿//============================================================================
+// İsim        : Singleton
+// Yazan       : Muhammed Salih Aydoğan
+// Version     : 1.0
+// Copyright   : 
+// Açıklama    : Singleton Pattern
+//============================================================================
+
+#include <iostream>
 #include <string>
 #include <mutex>
 
