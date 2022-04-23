@@ -1,0 +1,3 @@
+﻿  Storage Class.cpp
+C:\Users\90507\Documents\Cpp_Project_Cherno\Class\Storage Class\Storage Class.cpp(19,14): warning C4244: '=': 'double' - 'int' dönüşümü; veri kaybı olabilir
+  Storage Class.vcxproj -> C:\Users\90507\Documents\Cpp_Project_Cherno\Class\Storage Class\x64\Debug\Storage Class.exe
