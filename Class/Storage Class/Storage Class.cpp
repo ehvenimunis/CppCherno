@@ -1,8 +1,7 @@
-﻿// Storage Class.cpp : Bu dosya 'main' işlevi içeriyor. Program yürütme orada başlayıp biter.
-//
-
+﻿// Storage Class.cpp
 #include <iostream>
 using namespace std;
+
 //auto
 void autoClass()
 {
@@ -20,7 +19,6 @@ void autoClass()
 
     cout << number << " \n";
 }
-
 
 // extern 
 int i;
@@ -74,7 +72,6 @@ public:
     }
 };
 
-
 int main()
 {
     autoClass();
@@ -83,9 +80,7 @@ int main()
     cout << "Static variable : " << staticMetod() << endl;
     cout << "Static variable : " << variable << endl;
 
-
     const TestClass testClass;
-
 
     testClass.mutable_number = 41;
     cout << "Mutable number : " << testClass.mutable_number << endl;

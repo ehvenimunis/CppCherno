@@ -1,0 +1,3 @@
+﻿  ClassVsStruct.cpp
+C:\Users\90507\Documents\Cpp_Project_Cherno\Class\ClassVsStruct\ClassVsStruct.cpp(54,12): warning C4101: 't': yerel değişken başvurusu kaldırıldı
+  ClassVsStruct.vcxproj -> C:\Users\90507\Documents\Cpp_Project_Cherno\Class\ClassVsStruct\x64\Debug\ClassVsStruct.exe

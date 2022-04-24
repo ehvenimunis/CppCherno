@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5bd4c090-4151-44e7-a83b-b295e42b762c": {
+      "ProjectGuid": "5bd4c090-4151-44e7-a83b-b295e42b762c",
+      "DisplayName": "ClassVsStruct",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
