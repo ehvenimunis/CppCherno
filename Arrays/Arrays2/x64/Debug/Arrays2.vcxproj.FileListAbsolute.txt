@@ -1,1 +1,2 @@
 C:\Users\90507\Documents\Cpp_Project_Cherno\Arrays2\x64\Debug\Arrays2.exe
+C:\Users\90507\Documents\Cpp_Project_Cherno\Arrays\Arrays2\x64\Debug\Arrays2.exe

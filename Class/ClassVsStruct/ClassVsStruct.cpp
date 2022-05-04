@@ -1,9 +1,5 @@
 ﻿// ClassVsStruct.cpp : Bu dosya 'main' işlevi içeriyor. Program yürütme orada başlayıp biter.
-//
-
 #include <iostream>
-
-
 using namespace std;
 
 // Program 1
@@ -46,7 +42,6 @@ public:
 	int y;
 }; // Is equivalent to struct Derived : public Base {}
 
-
 // Driver Code
 int main()
 {
@@ -72,7 +67,6 @@ int main()
 	obj1.x = 999;
 	cout << endl << obj1.y << endl;
 	cout << obj1.x << endl;
-
 
 
 

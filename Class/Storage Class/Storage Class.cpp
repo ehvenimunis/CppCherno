@@ -63,7 +63,7 @@ static int staticMetod()
 class TestClass {
 public:
     int number;
-    mutable int mutable_number;
+    mutable int mutable_number; // mutable
 
     TestClass()
     {
@@ -83,12 +83,33 @@ int main()
     const TestClass testClass;
 
     testClass.mutable_number = 41;
-    cout << "Mutable number : " << testClass.mutable_number << endl;
+    cout << "Mutable number : " << testClass.mutable_number << endl; // 41
 
     // aşağıdaki kod bloğu çalışmayacaktır.
     // t1.number = 63;
 
-    cout << "Non-Mutable number : " << testClass.number << endl;
+    cout << "Non-Mutable number : " << testClass.number << endl; // 123
 
     return 0;
 }
+
+/*
+
+    Auto Class use
+    14
+    67.9
+    Thecodeprogram
+    123
+    extern Class example
+    Extern i : 0
+    Value attach i : 33
+    Register Class example
+    Defined Value : 33
+    Adress : 0000005CCE9BF4C4
+    Static metod :
+    Static variable : 0
+    Static variable : 33
+    Mutable number : 41
+    Non-Mutable number : 123
+
+*/

@@ -56,9 +56,6 @@ int main()
 
     Myclass a[10]; // 10 kere constructor cagirilacak, her elemani icin
 
-
-
-
     cout << endl << endl << "main tekrar basliyor" << endl;
     cout << "func cagriliyor " << endl;
     func_A(); // constructor cagirilacak
