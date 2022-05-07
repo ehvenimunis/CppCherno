@@ -1,16 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Loops",
-    "\\STL Set",
-    "\\StringStream",
-    "\\Type-cast Operators",
-    "\\Type-cast Operators\\dynamicCast",
-    "\\Variables",
-    "\\Variables\\Header File",
-    "\\Variables\\Variables",
-    "\\Vector Erase"
+    "\\Desing Pattern",
+    "\\Exception",
+    "\\Exception\\src",
+    "\\Function Pointer",
+    "\\Linked List\\linkedList"
   ],
-  "SelectedNode": "\\Vector Erase\\Vector Erase.cpp",
+  "SelectedNode": "\\Linked List",
   "PreviewInSolutionExplorer": false
 }
