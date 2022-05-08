@@ -1,12 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Desing Pattern",
-    "\\Exception",
-    "\\Exception\\src",
-    "\\Function Pointer",
-    "\\Linked List\\linkedList"
+    "\\Accumulate",
+    "\\Exception\\src"
   ],
-  "SelectedNode": "\\Linked List",
+  "SelectedNode": "\\Accumulate\\Accumulate.sln",
   "PreviewInSolutionExplorer": false
 }

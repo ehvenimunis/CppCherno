@@ -2,6 +2,12 @@
 #include <vector>
 #include <type_traits>
 
+
+/*
+
+Türden bağımsız (generic) olarak yazılan kodlarda, bazı durumlarda bir ifadenin türünün derleme zamanında derleyici tarafından yapılacak bir çıkarımla anlaşılması gerekiyor. decltype c++11 ile gelen bir özellik. Temel olarak değişkenin tipini belirlemeye yarıyor fakat auto gibi değil. auto kelimesi oldukça sınırlıdır. python "type(değişken)" ifadesi gibi çalışıyor.
+
+*/
 class A
 {
 public:

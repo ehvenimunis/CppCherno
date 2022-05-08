@@ -1,1 +1,2 @@
 C:\Users\90507\Documents\Cpp_Project_Cherno\decltype\x64\Debug\decltype.exe
+C:\Users\90507\Documents\Cpp_Project_Cherno\Decltype\decltype\x64\Debug\decltype.exe
