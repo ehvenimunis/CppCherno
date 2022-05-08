@@ -2,6 +2,13 @@
 #include <iostream>
 using namespace std;
 
+/*
+    Storage Class nedir
+    Storage class yapıları: bir fonksiyonun veya değişkenin tanımlanması esnasında, onun amacını, görünürlüğünü ve bellekten ne zaman silineceğini belirten anahtar kelimelerdir. Örnek olarak: Bir değişkenin programın heryerinden erişilebilmesini veya bir değişkenin aynı olmamakla birlikte benzer değerlerinde alabilmeleri storage class anahtar kelimeleri ile sağlanır.
+
+    web: https://thecodeprogram.com/c---ile-storage-siniflari
+*/
+
 //auto
 void autoClass()
 {
@@ -17,7 +24,7 @@ void autoClass()
 
     number = 123.456;
 
-    cout << number << " \n";
+    cout << number << " \n"; // Sadece 123 değerini yazdırır noktadan sonrası olmaz
 }
 
 // extern 
@@ -77,6 +84,7 @@ int main()
     autoClass();
     externClass();
     registerClass();
+
     cout << "Static variable : " << staticMetod() << endl;
     cout << "Static variable : " << variable << endl;
 
