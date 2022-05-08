@@ -1,3 +1,0 @@
-﻿  Enum.cpp
-C:\Users\90507\Documents\Cpp_Project_Cherno\Enums\Enum\Enum.cpp(35,30): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
-  Enum.vcxproj -> C:\Users\90507\Documents\Cpp_Project_Cherno\Enums\Enum\x64\Debug\Enum.exe

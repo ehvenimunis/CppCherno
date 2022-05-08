@@ -99,3 +99,25 @@ int main() {
     operator >>- Read something from the stringstream object.
     
 */
+
+/*
+Output:
+
+    ahmet
+    42
+    1500
+    Fonksiyon ile icerik okuma
+    mehmet 22 3000
+    *************************************
+    icerigi tek tek okuma
+    mehmet
+    22
+    3000
+    *************************************
+    For-> 1
+    Geeks-> 2
+    Ide-> 1
+    *************************************
+    Number of words are: 6
+
+*/
