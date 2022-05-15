@@ -3,9 +3,9 @@
 
 ## **Creational** (Yaratılış)
 
-Yaratılış kalıpları, nesneleri doğrudan oluşturmanıza değil, sizin için nesneler yaratan kalıplardır. Bu, belirli bir durum için hangi nesnelerin yaratılması gerektiğine karar vermede programınıza daha fazla esneklik sağlar.
+Yaratılış kalıpları, nesneleri doğrudan oluşturmanıza değil, sizin için nesneler yaratan kalıplardır. Bu, belirli bir durum için hangi nesnelerin yaratılması gerektiğine karar vermede programınıza daha fazla esneklik sağlar. Yani yaratıcı-Oluşturucu tasarım desenleri, bir nesnenin ya da grubun esnek ve tekrar kullanılabilir biçimde nasıl oluşturucağı ile ilgilenir.
 
-* ✓✓ **Singleton** pattern,  bir sınıf için sadece bir nesne oluşturmayı sağlar.
+* ✓✓ **Singleton** pattern,  bir sınıf için sadece bir nesne oluşturmayı sağlar. Bu nesneye global erişim noktası sağlanmalıdır.
 * ✓✓ **Factory method** pattern, oluşturulacak tam sınıfı belirtmeden nesneleri oluşturur.
 * ✓✓ **Abstract factory**  pattern, ortak gruplar, ortak bir temaya sahip olan sınıfların yaratılış biçimini hedefler.
 * ✓✓ **Builder** pattern, karmaşık nesneler inşa eder.
