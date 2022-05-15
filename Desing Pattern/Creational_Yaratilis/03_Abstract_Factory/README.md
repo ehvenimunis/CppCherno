@@ -1,6 +1,10 @@
 # Abstract Factory Pattern
 **Abstract Factory Pattern**, ortak bir sınıf türünden türetilecek, farklı nesnelerin oluşturulmasında kullanılmaktadır. **Abstract Factory** düzeni, genel bir deseni takip eden nesneler oluşturmamıza izin veren bir çerçeve sunmaktadır. Bu pattern, somut sınıflarını doğrudan belirtmeden, ilgili veya bağımlı nesnelerin ailelerinin oluşturulmasını sağlar.
 
+Anlayacağımız; birden fazla ürün ailesi ile çalışmak zorunda kaldığımız durumlarda, istemciyi bu yapılardan soyutlamak için Abstract Factory doğru bir yaklaşım olacaktır.
+
+Şöyle bir senaryo düşünülebilir; sistemimiz isteğe bağlı Oracle ya da MySQL için sorgu çalıştırabilir olsun. Bu işlemler için temel olarak da bağlantının açılması, kapatılması ve sorgunun çalıştırılması gerekli olduğu varsayalım. Bu işlemler direkt olarak herbiri Factory desen olarak ayarlanabilir ama birbirleri ile ilişkili aileden geldikleri için bu desene daha sağlıklı olacaktır.
+
 
 ## Abstract Factory Pattern Kullanım Adımları
 
