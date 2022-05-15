@@ -1,0 +1,1 @@
+C:\Users\90507\Documents\Cpp_Project_Cherno\Desing Pattern\Creational_Yaratilis\05_Prototype\PrototypePatternA\x64\Debug\PrototypePatternA.exe
