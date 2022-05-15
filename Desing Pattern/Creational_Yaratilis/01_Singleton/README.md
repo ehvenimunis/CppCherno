@@ -2,7 +2,9 @@
 
 **Singleton** kelime anlamı olarak dilimize **"Tek Şey"** şeklinde çevrilebilir. İsimdende yola çıkarak, aslında **Tek** sınıf daha doğrusu bir sınıftan üretilen sadece tek bir obje  olmasıdır. Yani nereden çağırılırsa çağırılsın tek sonuç, aynı sonuç dönme durumudur. Kısaca bir **Singleton** sınıfını nerede çağırırsanız çağırın, hepsinde aynı şekilde işlemler sağlayacaktır. Kaç kere obje oluşturulursa oluşturulsun, ilk oluşturulan hali ile geri dönme durumudur. Bu patterni bir çok projede görebilirsiniz. 
 
-Singleton patternini 2 porje olarak göreceksiniz. Bunun sebebi, bu pattern multithread yapılarda bazı istenmeyen sonuçlar sağlama olasılığıdır ve buna alınan önlemler içindir.
+Singleton patternini 2 proje olarak göreceksiniz. Bunun sebebi, bu pattern multithread yapılarda bazı istenmeyen sonuçlar sağlama olasılığıdır ve buna alınan önlemler içindir.
+
+Daha detaylı açıklayalım : Singleton ile nesneden yeni bir tane oluşturulmasının ve kopyalanmasının önüne geçilmiş olunur ve ilgili nesneyi global hale getirir. .Aynı zamanda o nesneye ihtiyaç duyulduğunda nesnenin önceki örneği çağırılır. Genel olarak bir sınıftan kaç tane obje üretilidğini kontrol etmek istendiğinde singleton yapısı kullanılmış olur.Tek bir nesneye ihtiyaç duyulan durumlarda (veri tabanı bağlantıları, port bağlantıları, dosya işlemleri, loglama işlemleri,bildirimlerde, iş katmanı servislerimizde) kullanılır.. Bu kalıpta istenilen tek bir nesnenin yaratılması olduğundan ilgili sınıfın içinde nesnenin oluşturulması gerekir.Bu statik bir yöntem ile de mevcuttur.Nesne statik metodun içinde oluşturulup sınıfın gizli olan elemanına atanır. Tek üretilen nesneye geri dönmek için referansına dönmek yeterli olacaktır ama bu yöntem çok verimli bir yöntem değildir . Sebebi ise program belleğe yüklendiği anda bellekte bu tip sınıflar oluşturulur. Bu sebeple singleton design pattern kullanılarak tüm uygulama üzerinden bir kere oluşturulup defalarca kullanılan bir nesne tanımlanabilir.
 
 ## Singleton Pattern Kullanım Adımları
 Bu pattern kullanılması için uyulacak adımlar şu şekildedir.
