@@ -1,6 +1,8 @@
 # Builder Pattern
 **"Builder Pattern"**, karmaşık bir nesnenin yapısını temsilinden ayırmak için kullanılır. Böylece aynı oluşturma işlemi ile farklı nesneler oluşturabilmektedir. Bu patterni, karmaşık bir obje oluşturmak istendiğinde fakat karmaşık bir kurucu üyeye veya argümanlara ihtiyaç duymak istemediğimizde kullanmaktayız.
 
+Örneğin; senaryo olarak da online bir eğitim platformunun ilk defa eğitim alacak olan öğrencilere ilk eğitimini yarı fiyatına verdiği düşünülebilir.
+
 ## Builder Pattern Kullanım Adımları
 
 * İlk olarak ana sınıfımızı oluşturuyoruz. Ana sınıfımız **"Bilgisayar"** ismindedir. İçeriğinde bilgisayar donanımı değişkenleri ve bunlar ile iletişim methodları barındırmakta. En son olarak, verilen parçları **"kur()"** methodu ile ekrana yazdırmakta.
