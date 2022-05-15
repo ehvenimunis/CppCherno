@@ -1,14 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Classes and Objects",
-    "\\Hacker Rank Solution",
-    "\\std",
-    "\\STL Set",
-    "\\Variable",
-    "\\Variable\\Variables",
-    "\\Variable\\Variables\\Variables"
+    "\\Desing Pattern",
+    "\\Desing Pattern\\Creational_Yaratilis",
+    "\\Desing Pattern\\Creational_Yaratilis\\05_Prototype",
+    "\\Desing Pattern\\Creational_Yaratilis\\05_Prototype\\PrototypePattern"
   ],
-  "SelectedNode": "\\Hacker Rank Solution",
+  "SelectedNode": "\\Desing Pattern\\Creational_Yaratilis\\05_Prototype\\PrototypePattern\\PrototypePattern.cpp",
   "PreviewInSolutionExplorer": false
 }

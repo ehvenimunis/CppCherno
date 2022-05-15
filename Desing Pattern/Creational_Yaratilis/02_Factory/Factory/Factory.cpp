@@ -86,4 +86,7 @@ int main()
     return 0;
 }
 
-// Oluşturulan sınıfları, sadece istediğimiz yötemler ile kontrol etmiş olduk. 
+/*
+* Oluşturulan sınıfları, sadece istediğimiz yötemler ile kontrol etmiş olduk. 
+* Buradaki amaç istemci tarafından birbirleri ile ilişkili nesnelerin oluşturulma anını soyutlamak, istemci hangi sınıf örneğini alabileceğini bilebilir ama oluşturulma detayları bilmez. Detaylar yani nesnenin nasıl oluşturulacağı soyutlanır.
+*/

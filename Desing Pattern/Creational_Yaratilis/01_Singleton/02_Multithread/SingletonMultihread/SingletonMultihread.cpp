@@ -3,7 +3,7 @@
 // Yazan       : Muhammed Salih Aydoğan
 // Version     : 1.0
 // Copyright   : 
-// Açıklama    : Singleton Pattern
+// Açıklama    : Singleton Pattern with thread
 //============================================================================
 
 #include <iostream>

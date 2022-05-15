@@ -11,6 +11,9 @@
 #include <memory>
 using namespace std;
 
+/* 
+    İlk önce soyut bir sınıf oluşturuyoruz. Bu sınıf bizim temel prototip sınıfımız.
+*/
 class Kayit
 {
 public:
@@ -19,6 +22,9 @@ public:
     virtual unique_ptr<Kayit> clone() = 0;
 };
 
+/* 
+    Oluşturduğumuz soyut sınıftan somut protatiplerimizi oluşturuyoruz.
+*/
 class ArabaKayit : public Kayit
 {
 private:
@@ -94,6 +100,9 @@ public:
     }
 };
 
+/* 
+    Anlamlı bir kullanım için "KayitTipi" oluşturuyoruz.
+*/
 enum KayitTipi
 {
     ARABA,
@@ -101,6 +110,9 @@ enum KayitTipi
     INSAN
 };
 
+/* 
+    Bu kısımda ise kaydımızı oluşturuyoruz.
+*/
 class KayitFactory
 {
 private:
@@ -120,6 +132,7 @@ public:
     }
 };
 
+/* Kullanımda ise ilk önce "KayitFactory" nesnesi oluşturuyoruz. ardıdnan oluşturduğımız nesne ile "kayitOlustur" methodunu kullanıp, ilgili PROTOTİBİMİZİ çağırmış oluyoruz. */
 int main()
 {
     KayitFactory kayitFactory;
@@ -135,5 +148,5 @@ int main()
 }
 
 /*
-    "Prototype Pattern"  ile bir şablon kullanarak, oluşturulacak nesnelerin türünü belirlemiş olduk. 
+    "Prototype Pattern"  ile bir şablon kullanarak, oluşturulacak nesnelerin türünü belirlemiş olduk. İlgili nesne üzerinden aynı tipte başka bir nesneyi hızlıca üreterek, üretimi esnasında maliyetli olabilecek nesneleri(ki burada maliyetten kasıt parametreli constructer vs. olabilir) var olan nesne üzerinden new anahtar sözcüğünü kullanmadan bir şekilde oluşturulması sağlandı.
 */
