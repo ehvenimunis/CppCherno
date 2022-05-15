@@ -128,7 +128,7 @@ class KayitFactory
 };
  ```
 
- * Kullanımda ise ilk önce **"KayitFactory"** nesnesi oluşturuyoruz. ardıdnan oluşturduğımız nesne ile **"kayitOlustur"** methodunu kullanıp, ilgili protatibimizi çağırmış oluyoruz.
+ * Kullanımda ise ilk önce **"KayitFactory"** nesnesi oluşturuyoruz. Ardından oluşturduğımız nesne ile **"kayitOlustur"** methodunu kullanıp, ilgili prototibimizi çağırmış oluyoruz.
 
  ```cpp
 int main()
