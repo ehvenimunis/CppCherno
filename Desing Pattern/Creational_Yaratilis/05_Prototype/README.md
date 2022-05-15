@@ -1,5 +1,5 @@
 # Prototype Pattern
-**"Prototype Pattern"**, bir şablon kullanarak, oluşturulacak nesnelerin türünü belirtir.
+**"Prototype Pattern"**, bir şablon kullanarak, oluşturulacak nesnelerin türünü belirtir.Prototype tasarım deseni, mevcut nesnelerin prototiplerinin oluşturulmasını yani nesnelerin kopyalarını elde etmeyi sağlayan bir tasarım desenidir. Prototip deseninin tasarlanmasının asıl sebebi, ilgili nesne üzerinden aynı tipte başka bir nesneyi hızlıca üretebilmektir. Haliyle üretimi esnasında maliyetli olabilecek nesneleri(ki burada maliyetten kasıt parametreli constructer vs. olabilir) var olan nesne üzerinden new anahtar sözcüğünü kullanmadan bir şekilde oluşturulmasını sağlayabilmektedir.
 
 ## PrototypeBuilder Pattern Kullanım Adımları
 
