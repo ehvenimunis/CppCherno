@@ -2,6 +2,8 @@
 
 **"Adapter Pattern"**, bir sınıfın arayüzünü istemcinin beklediği başka bir arayüze dönüştürür. Böylece istemci bu farklı sınıfla çalışabilir, aksi takdirde bilmediği bir arayüze sahip sınıfı kullanamaz. 
 
+Farklı sistemleri kendi sistemimize dahil ederken bazen yapılar uyuşmayabiliyor. Buradaki yapılar arayüzler olabilir. Bu desenin amacı arayüz için bir adapter oluşturarak sanki kendi sistemimize aitmiş gibi çalıştırmayı sağlar. Özetle; uyumsuz bir yapıyı, istemcinin beklediği bir yapıya getirir.
+
 ## Adapter Pattern Kullanım Adımları
 
 * İlk önce soyut bir sınıf oluşturuyoruz. Sınıfımıza **"Daire"** ismini verdik. Bu sınıfın **"ciz"** adında bir methodu bulunmakta.
