@@ -8,12 +8,18 @@
 #include <iostream>
 using namespace std;
 
+/*
+    İlk önce soyut bir sınıf oluşturuyoruz. Sınıfımıza "Daire" ismini verdik. Bu sınıfın "ciz" adında bir methodu bulunmakta.
+*/
 class Daire
 {
 public:
     virtual void ciz() = 0;
 };
 
+/*
+    Ardından "StandardDaire" isminde bir sınıf oluşturuyoruz. Bu sınıf, daire bilgilerini almaktadır. 
+*/
 class StandardDaire
 {
 private:
@@ -31,6 +37,9 @@ public:
     }
 };
 
+/*
+    Ardından "DaireAdapter" isminde bir sınıf oluşturuyoruz. Bu sınıf, "Daire" ve "StandardDaire" sınıfından miras almakta. Bu dairenin içinde constructor olarak dairenin çap bilgisini almakta. Bu bilgiyi, "StandardDaire" sınıfına göndermekte. Ardından "ciz" methodu ile, "cizim" sınıfını çalıştırmakta.
+ */
 class DaireAdapter : public Daire, private StandardDaire //Adapter Class
 {
 public:
