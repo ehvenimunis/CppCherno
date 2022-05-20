@@ -1,6 +1,13 @@
 # Bridge Pattern
 
-**"Bridge Pattern"**, arabirimi uygulanmasından ayırmak için kullanılır. Bunu yapmak esneklik sağlar, böylece her ikisi de bağımsız olarak değişebilir.
+**"Bridge Pattern"**, arabirimi uygulanmasından ayırmak için kullanılır. Bunu yapmak esneklik sağlar, böylece her ikisi de bağımsız olarak değişebilir. Yani soyutlanmış (abstract) yapıyı implementasyonundan (uygulamasından) ayırmaya, bağımsız olarak geliştirilebilir iki yapı elde etmemize yarar.
+
+## Bridge Ne Zaman Devreye Girer?
+
+Kalıtım üzerine kurulu sistemler vardır ve doğası gereği bu yapıların bir dezavantajı da kapsüllemeyi kırmasıdır.
+İstemci kodunu, implementasyonundan ayırmak için soyutlamayı kullanır ve genel olarak da kalıtımdan yararlanmaktayız. Bu işlemleri gerçekleştirirken de bir arayüz veya soyut bir sınıf tanımlarız ve ondan miras hiyerarşileri yaratırız. Her ne kadar ilk bakışta bu yaklaşım mantıklı görünse de ve yanlış bir şey olmasa da, miras yoluyla soyutlamalar her zaman esnek değildir. Kalıtım kullandığımızda, uygulamayı kalıcı olarak soyutlamaya bağlarız. Sonuç olarak, birinde yapılan herhangi bir değişiklik diğerini etkiler. Buradaki daha esnek bir yol, soyutlamayı ve uygulamayı ayırmaktır ve bridge tasarım deseni bu noktada devreye girer.
+
+Senaryo olarak kullanıcıların metin veya e-posta mesajı gibi farklı türde mesajlar göndermek için kullanabileceği bir mesajlaşma uygulamasını düşünelim. Sezgisel olarak Mesaj adında temel bir interface ya da abstract class oluşturmak ardından da sınıfları bunlardan türetmek gerekiyor. Türetilmiş sınıflarımız; TextMessage ve EmailMessage olacaktır. Son olarak da e-posta ve metin mesajını gönderme senaryolarını yapacağımız için TextMessage sınıfından türeyen bir TextMessageSender ve EmailMessage sınıfından türeyen EmailMessageSender sınıflarını oluştururduk. Oluşturacağımız yapı aşağıdaki gibi olacaktır.
 
 ## Bridge Pattern Kullanım Adımları
 
