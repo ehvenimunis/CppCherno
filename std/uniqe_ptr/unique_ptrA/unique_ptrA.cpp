@@ -21,7 +21,7 @@ int main()
 	cout << p1.get() << endl;
 
 	// transfers ownership to p2
-	unique_ptr<A> p2 = move(p1);
+	unique_ptr<A> p2 = move(p1); 
 	p2->show();
 	cout << p1.get() << endl;
 	cout << p2.get() << endl;
@@ -36,6 +36,10 @@ int main()
 	A* p4 = p3.release(); // p3 sahipliği bırakıyor.
 	cout << p3 << endl;
 	cout << p4 << endl;
+
+
+	unique_ptr<A> p5(move(p4)); // unique_ptr kopyalamanamaz ama taşınabilir
+	cout << endl << "p5 new value with copy :  " << p5 << endl; 
 	
 
 	/*************************************************************************************/
