@@ -1,1 +1,0 @@
-C:\Users\90507\Documents\Cpp_Project_Cherno\std\shared_ptr\shared_ptrA\x64\Debug\shared_ptrA.exe
