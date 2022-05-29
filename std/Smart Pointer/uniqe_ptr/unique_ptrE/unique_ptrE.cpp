@@ -45,4 +45,26 @@ int main()
     }
     std::cout << "main devam ediyor\n";
     //...
+
+
+    // Özel bir deleter kullanılmadığı sürece bir unique_ptr nesnesinin bellekte kapladığı yer bir gösterici kadardır. 
+    std::cout << sizeof(int*) << "\n";
+    std::cout << sizeof(std::unique_ptr<int>) << "\n";
 }
+
+/*
+
+    A ctor
+    A ctor
+    A ctor
+    0000017BA11B8750adresindeki nesne delete ediliyor
+    A dtor
+    0000017BA11C3630 adresindeki nesne delete ediliyor
+    A dtor
+    0000017BA11C35F0adresindeki nesne delete ediliyor
+    A dtor
+    main devam ediyor
+    8
+    8
+
+*/
