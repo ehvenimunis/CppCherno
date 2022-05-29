@@ -12,6 +12,15 @@ class Node {
 public:
 	int data;
 	Node* next;
+	
+	Node() {
+		cout << "Constructor" << endl;
+	}
+
+	~Node() {
+		cout << endl << "Destructor";
+	}
+
 };
 
 // This function prints contents of linked list
@@ -47,6 +56,10 @@ int main()
 
 	printList(head);
 
+	delete head;
+	delete second;
+	delete third;
+
 	return 0;
 }
 
@@ -55,3 +68,15 @@ int main()
  * 			1 2 3
  */
 
+ /*
+ 
+ Linked list, pointerlar kullanılarak oluşturulmuş bir listedir. Bir linked list, sabit bir boyuta sahip değildir. Program çalışıyorken boyut( size) büyüyebilir ya da küçülebilir. Tree, pointerlar kullanılarak oluşturulmuş bir başka veri yapısıdır.
+
+ Bir linked list, dinamik veri yapısının basit bir örneğidir. Dinamik veri yapısı olarak adlandırılmasının sebebi, sahip olduğu her değişkenin new operatörüyle dinamik olarak oluşturulmasıdır. Linked listler head ve node’lardan oluşur.
+
+ Heap Memory, bellek üzerinde yer tahsisi yapılan belli bir bölümdür. Bu yer, bellek üzerinde “malloc” fonksiyonu aracılığıyla tahsis edilir ve heap üzerinde allocate edilen(yer tahsisi yapılan) bellek “free” lenerek tekrar kullanım için serbest bırakılır. Heap’teki bellek kullanımı compiler tarafından değil, geliştiriciler tarafından kontrol edilir. Karmaşık programlar oluştururken, genellikle büyük bir bellek alanına ihtiyaç duyarız. Bu durumda Heap Memory kullanırız. Heap üzerinde allocate ettiğimiz bellek operasyonuna “dynamic memory allocation” adı verilir.
+
+ Eğer program esnasında boyutları bildirilmiş değişmez bir değer kullanıyorsak stack, değişebilir bir değer kullanıyorsak heap bizim için uygun olacaktır. Stack compailer tarafından yönetilir. Stack kullanılır ve işi bittikten sonra kendini otomatik olarak bellekten yok eder. Fakat heap‘te bu işi siz yapmalısınız. 
+
+
+ */
