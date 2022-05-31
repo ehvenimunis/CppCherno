@@ -51,9 +51,9 @@ public:
 		}
 	}
 
-	int front()const {
+	int front()const { // const bir nesneyi değitiremez
 		if (isEmty())
-			throw "Error: lis::front() for list is empty";
+			throw "Error: list::front() for list is empty";
 		else {
 			return begin()->data;
 		}
@@ -61,13 +61,29 @@ public:
 
 	int back()const {
 		if (isEmty())
-			throw "Error: lis::front() for list is empty";
+			throw "Error: list::back() for list is empty";
 		else {
 			Node* tmp = begin();
 			while (tmp->next != end()) {
 				tmp = tmp->next;
 			}
 			return tmp->data;
+		}
+	}
+
+	void pop_back() {
+		if (isEmty())
+			throw "Error: list for list is empty";
+		if (begin()->next == end()) {
+			delete root;
+			root = NULL;
+		}
+		else {
+			Node* tmp = begin();
+			while (tmp->next->next != end())
+				tmp = tmp->next;
+			delete tmp->next;
+			tmp->next = NULL;
 		}
 	}
 };
@@ -83,8 +99,6 @@ int main() {
 	list.push_back(154);
 	list.push_back(155);
 	list.push_back(156);
-	list.push_back(157);
-	list.push_back(158);
 
 	// push front
 	list.push_front(799);
@@ -99,6 +113,12 @@ int main() {
 
 	// back value
 	cout << "back value in linked list : " << list.back() << endl;
+
+	// pop back 
+	list.pop_back();
+	list.pop_back();
+
+
 
 
 	return 0;
