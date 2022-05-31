@@ -40,10 +40,22 @@ public:
 		}
 		cout << endl;
 	}
+
+	void push_front(const int& value) {
+		if (isEmty())
+			root = new Node(value);
+		else {
+			Node* tmp = new Node(value);
+			tmp->next = root;
+			root = tmp;
+		}
+	}
 };
 
 
 int main() {
+
+	// push back
 	list list;
 	cout << list.isEmty() << endl; // Get 1 value for empty
 	list.push_back(153);
@@ -54,7 +66,14 @@ int main() {
 	list.push_back(157);
 	list.push_back(158);
 
+	// push front
+	list.push_front(799);
+	list.push_front(979);
+	list.push_front(997);
+
+	// traverse in linked list
 	list.traverse();
+
 
 	return 0;
 }
