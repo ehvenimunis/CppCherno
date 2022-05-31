@@ -58,6 +58,18 @@ public:
 			return begin()->data;
 		}
 	}
+
+	int back()const {
+		if (isEmty())
+			throw "Error: lis::front() for list is empty";
+		else {
+			Node* tmp = begin();
+			while (tmp->next != end()) {
+				tmp = tmp->next;
+			}
+			return tmp->data;
+		}
+	}
 };
 
 
@@ -84,6 +96,9 @@ int main() {
 
 	// front value
 	cout << "front value in linked list : " << list.front() << endl;
+
+	// back value
+	cout << "back value in linked list : " << list.back() << endl;
 
 
 	return 0;
