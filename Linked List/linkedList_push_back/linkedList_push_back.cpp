@@ -50,6 +50,14 @@ public:
 			root = tmp;
 		}
 	}
+
+	int front()const {
+		if (isEmty())
+			throw "Error: lis::front() for list is empty";
+		else {
+			return begin()->data;
+		}
+	}
 };
 
 
@@ -73,6 +81,9 @@ int main() {
 
 	// traverse in linked list
 	list.traverse();
+
+	// front value
+	cout << "front value in linked list : " << list.front() << endl;
 
 
 	return 0;
