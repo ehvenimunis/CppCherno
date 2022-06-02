@@ -72,9 +72,9 @@ public:
 	}
 
 	void pop_back() {
-		if (isEmty())
+		if (isEmty())								// liste boş olmamalı
 			throw "Error: list for list is empty";
-		if (begin()->next == end()) {
+		if (begin()->next == end()) {				// eğer bir tane eleman varsa
 			delete root;
 			root = NULL;
 		}
@@ -85,6 +85,14 @@ public:
 			delete tmp->next;
 			tmp->next = NULL;
 		}
+	}
+
+	void pop_front() {
+		if (isEmty())								// liste boş olmamalı
+			throw "Error: list for list is empty";
+		Node* tmp = root;
+		root = tmp->next;
+		delete tmp;
 	}
 };
 
@@ -117,6 +125,11 @@ int main() {
 	// pop back 
 	list.pop_back();
 	list.pop_back();
+
+	// pop front
+	list.pop_front();
+	list.traverse();
+
 
 
 
