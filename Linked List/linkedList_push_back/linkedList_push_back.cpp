@@ -130,15 +130,14 @@ int main() {
 	list.pop_front();
 	list.traverse();
 
-
-
-
-
 	return 0;
 }
 
 /*
 	1
 	0
-	153 154 155 156 157 158
+	997 979 799 153 154 155 156
+	front value in linked list : 997
+	back value in linked list : 156
+	979 799 153 154
 */

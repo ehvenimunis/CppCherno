@@ -34,7 +34,7 @@ void thr(std::shared_ptr<Base> p)
 
 int main()
 {
-    std::shared_ptr<Base> p = std::make_shared<Derived>();
+    std::shared_ptr<Base> p = std::make_shared<Derived>(); // referans sayımı (reference counting)
 
     std::cout << "Created a shared Derived (as a pointer to Base)\n"
         << "  p.get() = " << p.get()
