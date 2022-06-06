@@ -14,6 +14,7 @@ public:
     int memberFunction(double);
     double x;
 };
+
 const A* a;
 
 // y'nin tipi double (nasil tanimlandiysa oyle)
