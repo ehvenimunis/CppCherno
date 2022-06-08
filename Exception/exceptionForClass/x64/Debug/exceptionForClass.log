@@ -1,0 +1,4 @@
+﻿  exceptionForClass.cpp
+C:\Users\90507\Documents\Cpp_Project_Cherno\Exception\exceptionForClass\exceptionForClass.cpp(17,17): warning C4101: 'd': yerel değişken başvurusu kaldırıldı
+C:\Users\90507\Documents\Cpp_Project_Cherno\Exception\exceptionForClass\exceptionForClass.cpp(20,14): warning C4101: 'b': yerel değişken başvurusu kaldırıldı
+  exceptionForClass.vcxproj -> C:\Users\90507\Documents\Cpp_Project_Cherno\Exception\exceptionForClass\x64\Debug\exceptionForClass.exe
