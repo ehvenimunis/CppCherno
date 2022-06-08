@@ -17,10 +17,18 @@ int main()
 			cout << "After throw (Never executed) \n";
 		}
 	}
-	catch (int x) {
+	catch (int x) { //special catch block 
 		cout << "Exception Caught \n";
 	}
+	catch (char* excp) { // special catch block 
+		cout << "Caught " << excp;
+	}
+	catch (...) { // catch al
+		cout << "Default Exception\n";
+	}
+
 
 	cout << "After catch (Will be executed) \n";
+
 	return 0;
 }
