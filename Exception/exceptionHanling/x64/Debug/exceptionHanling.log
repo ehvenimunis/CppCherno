@@ -1,0 +1,3 @@
+﻿  exceptionHanling.cpp
+C:\Users\90507\Documents\Cpp_Project_Cherno\Exception\exceptionHanling\exceptionHanling.cpp(20,13): warning C4101: 'x': yerel değişken başvurusu kaldırıldı
+  exceptionHanling.vcxproj -> C:\Users\90507\Documents\Cpp_Project_Cherno\Exception\exceptionHanling\x64\Debug\exceptionHanling.exe
