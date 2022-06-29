@@ -1,6 +1,15 @@
 # Chain of Responsibility Pattern
 
-**"Chain of Responsibility Pattern"**, Türkçe anlamı **"Sorumluluk Zinciri"dir**. Bu pattern, bir talebin göndericisini alıcısına, birden fazla nesneyi isteği yerine getirme şansı vererek birleştirmekten kaçınmak niyetindedir. Alıcı nesneleri zincirler ve istekleri bir nesne ele geçirene kadar zincir boyunca geçirir.
+**"Chain of Responsibility Pattern"**, Türkçe anlamı **"Sorumluluk Zinciri"dir**. Bu pattern, bir talebin göndericisini alıcısına, birden fazla nesneyi isteği yerine getirme şansı vererek birleştirmekten kaçınmak niyetindedir. Alıcı nesneleri zincirler ve istekleri bir nesne ele geçirene kadar zincir boyunca geçirir. Özünde birbirini takip eden iş dizisine ait process'leri redirect ve handle etmek yada istekte bulunan-confirm eden süreçleri için çözüm olarak ortaya çıkmış bir tasarım desendir.
+Bir örnek ile ele alacak olursak; veznede çalışan bir kişi için günlük nakit para çekim miktarı 40 bin TL olan bir banka düşünelim ve bu bankaya gelen bir müşteri veznede bulunan kişiden 240 bin TL para çekmek istediğini söyledi. Banka kuralları gereği bu işlemin sırasıyla veznedar, yönetici, müdür ve bölge sorumlusu tarafından sırasıyla onaylaması gerekmekte. Bakacak olduğumuzda zincir şeklinde birbirine bağlı olan bir onay yapısı bulunmakta. 
+
+Akış olarak özetleyecek olursak;
+
+     Müşteri 480 bin TL lik para çekme isteğini veznedar'a iletir.
+     Veznedar bu isteği alır ve kontrol eder eğer onaylayabileceği bir tutar ise onaylar, onaylayabileceği bir tutar değilse yöneticisine gönderir,
+     Yönetici isteği alır  onaylayabileceği bir tutar değilse müdüre iletir,
+     Müdür kontrol eder eğer onaylayabileceği bir tutar değilse bölge sorumlusunun onayına gönderir,
+     Bölge sorumlusu onaylar ve para müşteriye verilir.
 
 ## Chain of Responsibility Pattern Kullanım Adımları
 
