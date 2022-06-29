@@ -5,10 +5,10 @@
 
 Yaratılış kalıpları, nesneleri doğrudan oluşturmanıza değil, sizin için nesneler yaratan kalıplardır. Bu, belirli bir durum için hangi nesnelerin yaratılması gerektiğine karar vermede programınıza daha fazla esneklik sağlar. Yani yaratıcı-Oluşturucu tasarım desenleri, bir nesnenin ya da grubun esnek ve tekrar kullanılabilir biçimde nasıl oluşturucağı ile ilgilenir.
 
-* ✓✓ **Singleton** pattern,  bir sınıf için sadece bir nesne oluşturmayı sağlar. Bu nesneye global erişim noktası sağlanmalıdır.
-* ✓✓ **Factory method** pattern, oluşturulacak tam sınıfı belirtmeden nesneleri oluşturur.
+* ✓✓ **Singleton** pattern,  bir sınıf için sadece bir nesne oluşturmayı sağlar. Kaç kere obje oluşturulursa oluşturulsun, ilk oluşturulan hali ile geri dönme durumudur
+* ✓✓ **Factory method** pattern, oluşturulacak tam sınıfı belirtmeden nesneleri oluşturur. Var olan şablona uygun olarak nesneler yaratmaktadır.
 * ✓✓ **Abstract factory**  pattern, ortak gruplar, ortak bir temaya sahip olan sınıfların yaratılış biçimini hedefler.
-* ✓✓ **Builder** pattern, karmaşık nesneler inşa eder.
+* ✓✓ **Builder** pattern, karmaşık nesneler inşa eder böylece karmaşık bir kurucu üyeye veya argümanlara ihtiyaç duymayız.
 * ✓✓ **Prototype** pattern, mevcut bir nesneyi klonlayarak nesneler oluşturur.
 
 ## **Behavioral** (Davranışsal)

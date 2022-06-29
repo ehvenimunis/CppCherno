@@ -122,7 +122,7 @@ public:
     KayitFactory()
     {
         kayit[ARABA] = make_unique<ArabaKayit>("Ford Focus", 94);
-        kayit[BISIKLET] = make_unique<BisikledKayit>("Yamaha", 2525);
+        kayit[BISIKLET] = make_unique<BisikledKayit>("Yammaha", 2525);
         kayit[INSAN] = make_unique<InsanKayit>("Salih AYDOGAN", 25);
     }
 

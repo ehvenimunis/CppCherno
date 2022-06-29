@@ -15,7 +15,7 @@ class Kayit
 };
 ```
 
-* Oluşturduğumuz soyut sınıftan  somut protatiplerimizi oluşturuyoruz.
+* Oluşturduğumuz soyut sınıftan  somut prototiplerimizi oluşturuyoruz.
 
 ```cpp
 class ArabaKayit : public Kayit
@@ -117,8 +117,8 @@ class KayitFactory
     KayitFactory()
     {
         kayit[ARABA] = make_unique<ArabaKayit>("Tofaş Şahin", 94);
-        kayit[BISIKLET] = make_unique<BisikledKayit>("Yamaha", 2525);
-        kayit[INSAN] = make_unique<InsanKayit>("Mert Acel", 25);
+        kayit[BISIKLET] = make_unique<BisikledKayit>("Yammaha", 2525);
+        kayit[INSAN] = make_unique<InsanKayit>("Salih Aydoğan", 25);
     }
 
     unique_ptr<Kayit> kayitOlustur(KayitTipi recordType)
