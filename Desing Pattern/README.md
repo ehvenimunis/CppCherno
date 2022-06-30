@@ -49,7 +49,7 @@ sudo apt-get install g++ -y
 ```
 ## **Yükleme**
 ```bash
-git clone https://github.com/KMACEL/TR-Cpp-DesignPattern.git
+git clone https://github.com/ehvenimunis/CppCherno/tree/main/Desing%20Pattern
 ```
 ## **Çalıştırma**
 ```bash
