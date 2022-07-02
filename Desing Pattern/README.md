@@ -16,7 +16,7 @@ Yaratılış kalıpları, nesneleri doğrudan oluşturmanıza değil, sizin içi
 Bu tasarım desenlerinin çoğu, özellikle nesneler arasındaki iletişim ile ilgili yapılardır.
 
 * ✓✓ **Chain of Responsibility** delegates commands to a chain of processing objects.
-* ✓✓ **Command** creates objects which encapsulate actions and parameters.
+* ✓✓ **Command** bir isteği nesneye dönüştürerek, isteğin kullanıcı sınıfları tarafından rahatça erişilebilmesi sağlar.
 * ✓✓ **Interpreter** implements a specialized language.
 * ✓ **Iterator** accesses the elements of an object sequentially without exposing its underlying representation.
 * **Mediator** allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
@@ -37,6 +37,13 @@ These concern class and object composition. They use inheritance to compose inte
 * ✓✓ **Facade** provides a simplified interface to a large body of code.
 * **Flyweight** reduces the cost of creating and manipulating a large number of similar objects.
 * ✓ **Proxy** provides a placeholder for another object to control access, reduce cost, and reduce complexity.
+
+## Genel Bakış: S.O.L.I.D.
+* ✓✓ S -Single-responsiblity principle: Nesnenin sadece bir sorumluluğu olmalıdır, yani olası bir değişiklikte bunun tek bir sebebi olmalıdır.
+* ✓✓ O -Open-closed principle: Nesne genişlemeye açık ancak değişikliklere kapalı olmalıdır.
+* ✓✓ L -Liskov substitution principle: Programdaki nesnelerin, programın çalışmasında sorun yaratmadan kendi alt örnekleri ile değiştirilebilir olmasıdır.
+* ✓✓ I -Interface segregation principle: Nesnelerin ihtiyaç duymadıkları metodların arayüzlerinden mümkün olduğunca ayrıştırılmasıdır.
+* ✓✓ D -Dependency Inversion Principle: Yüksek seviyeli sınıflar, düşük seviyeli sınıflara bağlı olmamalı, her ikisi de soyut kavramlara bağlı olmalıdır.
 
 ## **Sistem Gereksinimleri**
 Bu örnekler Linux Mint 18.3 Slvia ve Ubuntu 18.04.1 LTS işletim sistemlerinde test edilmiştir.
