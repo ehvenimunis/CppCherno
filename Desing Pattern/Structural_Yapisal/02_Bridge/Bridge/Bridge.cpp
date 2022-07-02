@@ -1,6 +1,4 @@
-﻿// Bridge.cpp : Bu dosya 'main' işlevi içeriyor. Program yürütme orada başlayıp biter.
-
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
@@ -15,7 +13,6 @@ public:
 
 /* Somut Uygulatıcı A
     Ardından bu sınıftan miras alan "CizimAPI1", "CizimAPI2" sınıflarını oluşturuyoruz. Bu sınıflar, "cemberCiz" methodunu kendine göre yorumlamaya olanak sağlamaktadır.
-
 */
 class CizimAPI1 : public CizimAPISablon
 {

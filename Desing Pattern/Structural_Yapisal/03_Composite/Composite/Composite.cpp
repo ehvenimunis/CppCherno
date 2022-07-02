@@ -89,6 +89,9 @@ int main()
 
     // Prints the complete graphic (four times the string "Ellipse")
     graphic1->yazdir();
+
+    cout << endl;
+    graphic2->yazdir();
     return 0;
 }
 
@@ -97,4 +100,8 @@ int main()
     Elips
     Ucgen
     Kare
+
+    Elips
+    Elips
+    Ucgen
 */
