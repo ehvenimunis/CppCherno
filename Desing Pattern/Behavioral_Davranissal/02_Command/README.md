@@ -1,6 +1,6 @@
 # Command Pattern
 
-**"Command Pattern"** bir isteği bir nesne olarak kapsüllemek için kullanılır. Böylece istemcileri farklı isteklere, sıraya veya kayıt isteklerine göre parametrelendirmenize ve geri alınamayan işlemleri desteklemenize izin verir.
+**"Command Pattern"** bir isteği bir nesne olarak kapsüllemek için kullanılır. Böylece istemcileri farklı isteklere, sıraya veya kayıt isteklerine göre parametrelendirmenize ve geri alınamayan işlemleri desteklemenize izin verir. Command ( Komut ) tasarım deseni, bir isteği kendisi ile ilgili tüm bilgileri içeren bağımsız bir nesneye dönüştüren davranışsal bir tasarım desenidir. Bu dönüşüm, istekleri metot parametresi olarak göndermenize, işlenmelerini geciktirmenize ya da sıraya sokmanıza ve geri alınamaz işlemleri desteklemenize olanak verir.
 
 ## Command Pattern Kullanım Adımları
 
