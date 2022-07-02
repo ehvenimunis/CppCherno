@@ -1,0 +1,1 @@
+C:\Users\90507\Documents\Cpp_Project_Cherno\Desing Pattern\Structural_Yapisal\04_Decorator\DecoratorPattern\x64\Debug\DecoratorPattern.exe

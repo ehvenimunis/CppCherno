@@ -1,0 +1,6 @@
+﻿  DecoratorPattern.cpp
+C:\Users\90507\Documents\Cpp_Project_Cherno\Desing Pattern\Structural_Yapisal\04_Decorator\DecoratorPattern\DecoratorPattern.cpp(152,92): warning C4566: '\u20BA' evrensel karakter adı ile temsil edilen karakter şu anki kod sayfasında (1254) temsil gösterilemiyor
+C:\Users\90507\Documents\Cpp_Project_Cherno\Desing Pattern\Structural_Yapisal\04_Decorator\DecoratorPattern\DecoratorPattern.cpp(156,84): warning C4566: '\u20BA' evrensel karakter adı ile temsil edilen karakter şu anki kod sayfasında (1254) temsil gösterilemiyor
+C:\Users\90507\Documents\Cpp_Project_Cherno\Desing Pattern\Structural_Yapisal\04_Decorator\DecoratorPattern\DecoratorPattern.cpp(159,84): warning C4566: '\u20BA' evrensel karakter adı ile temsil edilen karakter şu anki kod sayfasında (1254) temsil gösterilemiyor
+C:\Users\90507\Documents\Cpp_Project_Cherno\Desing Pattern\Structural_Yapisal\04_Decorator\DecoratorPattern\DecoratorPattern.cpp(162,84): warning C4566: '\u20BA' evrensel karakter adı ile temsil edilen karakter şu anki kod sayfasında (1254) temsil gösterilemiyor
+  DecoratorPattern.vcxproj -> C:\Users\90507\Documents\Cpp_Project_Cherno\Desing Pattern\Structural_Yapisal\04_Decorator\DecoratorPattern\x64\Debug\DecoratorPattern.exe

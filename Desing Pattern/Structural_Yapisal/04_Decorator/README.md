@@ -1,6 +1,15 @@
 # Decorator Pattern
 **"Decorator Pattern"**, bir nesneye dinamik olarak ek davranış veya sorumluluklar eklemesine yardımcı olur. Dekoratörler, genişletme işlevselliği için alt sınıflamaya esnek bir alternatif sunar. Buna “Wrapper” denir. Uygulamanız bir çeşit filtreleme yapıyorsa, Dekoratör iş için göz önünde bulundurulması gereken iyi bir model olabilir.
 
+Decorator tasarım deseninin amacı nesnelere dinamik olarak özellik eklemektir ve nesne kendisi de eklenen özelliklerden habersiz ve ayrı bir konumda olmalıdır. Yani kodun belli kısımlarında nesnelere belli özellikler kazandırmak istiyorsak ve bunu nesnenin kendi classından ayrıştırılmış bir şekilde yapmak istiyorsak decorator tasarım desenini kullanmalıyız.
+
+#### Decorator tasarım deseninin en önemli özellikleri
+
+    Esas nesne dekore edildiğinin farkında değildir.  Yani dekoratör ile eklenen özellikler aslında kendi classı içerisinde barındırdığı özellikler değildir.
+    Esas nesnenin classı tüm gerekli gereksiz opsiyonları içerisinde barındıran büyük bir class halinden çıkmış olur.
+    Tüm decorator classları birbirinden bağımsızdır.
+    Decorator classları kendi arasında combine edilip eşleştirilebilir.
+
 ## Decorator Pattern Kullanım Adımları
 
 * İlk adım olarak soyut bir sınıf oluşturuyoruz. Bizim sınıfımızın ismi **"Araba"** olarak belirledik. 
