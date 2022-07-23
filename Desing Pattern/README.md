@@ -45,36 +45,10 @@ These concern class and object composition. They use inheritance to compose inte
 * ✓✓ I -Interface segregation principle: Nesnelerin ihtiyaç duymadıkları metodların arayüzlerinden mümkün olduğunca ayrıştırılmasıdır.
 * ✓✓ D -Dependency Inversion Principle: Yüksek seviyeli sınıflar, düşük seviyeli sınıflara bağlı olmamalı, her ikisi de soyut kavramlara bağlı olmalıdır.
 
-## **Sistem Gereksinimleri**
-Bu örnekler Linux Mint 18.3 Slvia ve Ubuntu 18.04.1 LTS işletim sistemlerinde test edilmiştir.
 
-```bash
-sudo apt-get install git -y
-sudo apt-get install build-essential -y
-sudo apt-get install cmake -y
-sudo apt-get install g++ -y
-```
 ## **Yükleme**
 ```bash
 git clone https://github.com/ehvenimunis/CppCherno/tree/main/Desing%20Pattern
-```
-## **Çalıştırma**
-```bash
-cd <ornek_proje_yolu>
-mkdir build
-cd build
-cmake ..
-make
-./../bin/<proje_ismi>
-```
-
-```bash
-cd 01_Creational_Yaratilis/01_Singleton/01_Giris/
-mkdir build
-cd build
-cmake ..
-make
-./../bin/Singleton-01_Giris
 ```
 
 ## **Kaynak**
