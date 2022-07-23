@@ -18,9 +18,9 @@ Bu tasarım desenlerinin çoğu, özellikle nesneler arasındaki iletişim ile i
 * ✓✓ **Chain of Responsibility** delegates commands to a chain of processing objects.
 * ✓✓ **Command** bir isteği nesneye dönüştürerek, isteğin kullanıcı sınıfları tarafından rahatça erişilebilmesi sağlar.
 * ✓✓ **Interpreter** implements a specialized language.
-* ✓ **Iterator** accesses the elements of an object sequentially without exposing its underlying representation.
-* **Mediator** allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
-* **Memento** provides the ability to restore an object to its previous state (undo).
+* ✓✓ **Iterator** accesses the elements of an object sequentially without exposing its underlying representation.
+* ✓✓ **Mediator** allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
+* ✓✓ **Memento** provides the ability to restore an object to its previous state (undo).
 * ✓✓ **Observer** is a publish/subscribe pattern which allows a number of observer objects to see an event.
 * ✓✓ **State** allows an object to alter its behavior when its internal state changes.
 * ✓✓ **Strategy** allows one of a family of algorithms to be selected on-the-fly at runtime.
@@ -35,8 +35,8 @@ These concern class and object composition. They use inheritance to compose inte
 * ✓✓ **Composite** composes zero-or-more similar objects so that they can be manipulated as one object.
 * ✓✓ **Decorator** dynamically adds/overrides behaviour in an existing method of an object.
 * ✓✓ **Facade** provides a simplified interface to a large body of code.
-* **Flyweight** reduces the cost of creating and manipulating a large number of similar objects.
-* ✓ **Proxy** provides a placeholder for another object to control access, reduce cost, and reduce complexity.
+* ✓✓ **Flyweight** reduces the cost of creating and manipulating a large number of similar objects.
+* ✓✓ **Proxy** provides a placeholder for another object to control access, reduce cost, and reduce complexity.
 
 ## Genel Bakış: S.O.L.I.D.
 * ✓✓ S -Single-responsiblity principle: Nesnenin sadece bir sorumluluğu olmalıdır, yani olası bir değişiklikte bunun tek bir sebebi olmalıdır.
