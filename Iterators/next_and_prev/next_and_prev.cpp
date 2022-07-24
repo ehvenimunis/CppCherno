@@ -8,7 +8,7 @@
 int main()
 {
 	std::list<int> ilist{ 5, 56, 7, 48, 11, 23, 37, 49 };
-	for_each(next(ilist.begin()), prev(ilist.end()), [](int& r) {r *= 2; });
+	for_each(next(ilist.begin()), prev(ilist.end()), [](int&3 r) {r *= 2; });
 
 	/*
 		next(ilist.begin()) ifadesi ile ilist kabında tutulan ikinci öğenin konumunu
